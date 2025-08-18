@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int N, years, remaining, months,days;
+    int N, years, remaining, months, days;
     scanf("%d", &N);
      years = N / 365;
      remaining = N % 365;
@@ -11,3 +11,4 @@ int main() {
     printf("%d days\n", days);
     return 0;
 }
+
